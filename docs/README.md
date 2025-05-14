@@ -57,6 +57,8 @@ Before using the code, ensure that you have the following:
 
 To protect sensitive information, the template shared does not include the Google Apps Script code. Please duplicate the Google Sheets file and add the code from the repository, replacing the necessary fields to get your system started.
 
+Template: https://docs.google.com/spreadsheets/d/1ZmCSTrR5d_DXy_zKk19pit0cCv23GBAj9bSrAvIzubQ/edit?gid=1556707338#gid=1556707338
+
 ### **Configure your integrations:**
 
 **What You Need to Modify:**
@@ -65,7 +67,7 @@ To protect sensitive information, the template shared does not include the Googl
    - Replace the placeholder URL (e.g., `'https://hooks.slack.com/services/...'`) with your own **Slack webhook URL**.
 
 2. **ClickUp API Key:**
-   - Insert your **ClickUp API key** where indicated in the script. This key is necessary to authenticate and fetch data from your ClickUp account.
+   - Insert your **ClickUp API key** and **ClickUp List ID** where indicated in the script. This key is necessary to authenticate and fetch data from your ClickUp account.
 
 3. **Slack Channel:**
    - Change the Slack channel (e.g., `#hello-tech-team`) to the channel where you want the notifications to be sent.
